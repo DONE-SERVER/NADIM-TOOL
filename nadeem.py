@@ -42,7 +42,7 @@ logo =("""\x1b[1;36m
 print(Fore. CYAN + logo +  Style.RESET_ALL)
 # Start time
 
-print("\033[1;33mSTART TIME:", TIME.STRFTIME ("%Y-%m-%d %H:%M:%S"))  
+print("\033[1;33mStart Time:", time.strftime("%Y-%m-%d %H:%M:%S"))  
 
 
 
